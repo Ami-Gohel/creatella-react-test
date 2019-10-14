@@ -5,6 +5,7 @@ This is an ecommerce site, where you can buy all sorts of ascii faces like `(ノ
 
 Please read the instructions and FAQ below before beginning.
 
+Please read the instructions in Instructuions.md to run the app.
 Features
 ----
 
