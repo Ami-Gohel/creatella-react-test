@@ -1,5 +1,5 @@
 # ProductsGrid
-Clone the creatella-react-test 
+Clone the creatella-react-test ,The same folder which was provided,a new React native directory name ProductsGrid is added.
 
 # npm install
 
