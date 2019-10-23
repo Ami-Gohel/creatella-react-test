@@ -45,6 +45,7 @@ export class ProductScreen extends Component {
         }
     }
     componentWillReceiveProps(nextProps) {
+        if(nextProps.Products.data){
         if (nextProps.Products.data.length != 0) {
             this.setState({
                 data: this.state.data.concat(nextProps.Products.data), page: this.state.page + 1,
@@ -57,6 +58,10 @@ export class ProductScreen extends Component {
                 onEndReached: false
             });
         } 
+    }
+        else{
+     alert('Please start server for api data')
+   }
     }
     _getProductlist() {
         const Params = {
